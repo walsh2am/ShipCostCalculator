@@ -16,7 +16,7 @@ public class ShipCost
 
         if (itemPrice < 100){
             totalCost = shipCost + itemPrice;
-            IO.println("Your item was less than $100. Your shipping cost is $" + shipCost);
+            IO.println("Your item is less than $100. Your shipping cost is $" + shipCost);
             IO.println("Your total cost is $" + totalCost);
         }
         else{
